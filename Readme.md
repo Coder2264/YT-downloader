@@ -1,11 +1,11 @@
-# YouTube Video Downloader API
+# YT Video Downloader API
 
 A FastAPI backend service for downloading YouTube videos, packaged in Docker.
 
 ## Prerequisites
 
 - Docker installed
-- 500MB+ free disk space
+- 800MB+ free disk space
 
 ## Quick Start
 
@@ -34,3 +34,5 @@ Downloaded files are saved to ./downloads on your host machine
 The service runs on port 8000 by default
 
 First run may take longer as dependencies are installed
+
+You can always refer /docs for #Swagger API# docs
