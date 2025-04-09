@@ -1,0 +1,28 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/Specific editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python cache and virtualenv
+__pycache__/
+*.py[cod]
+.env/
+venv/
+
+# Docker temp files
+docker-compose.yml
+docker-compose.override.yml
+
+# Project-specific ignores
+/downloads/  # All downloaded videos (matches your requirement)
+/tmp/
+*.log
+
+# Local config files
+config.local.*
+secrets.*
